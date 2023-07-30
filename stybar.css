@@ -1,0 +1,161 @@
+*{
+   margin: 0px;
+   padding: 0px;  
+   box-sizing: border-box; 
+   font-family: 'Cardo', serif;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    background-image: linear-gradient(rgb(75, 5, 75),rgb(3, 3, 112) );
+}
+nav .logo p{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}   
+nav ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 26px;
+    padding: 80px 50px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:gold;
+    transition: all 0.4s ease 0s;
+    text-decoration:hsl(hue, saturation, lightness);
+    text-decoration:underline;
+}
+
+body .content-img img{
+    width: 100%;
+    height: 100vh;
+    margin:0;
+    background-image: url(images/inkk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: rgb(232, 234, 233);
+    justify-content: center ;
+    align-items: center;
+    display: flex ;
+    top: 50%;
+    left: 0;
+    flex-direction: column;
+}
+.content h1 {
+    font-size: 80px;
+    color: rgb(249, 248, 244);
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.content p{
+    font-size: 25px;
+    color: white;
+    line-height: 1.5px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.content a{
+    text-decoration: none;
+    font-size: 19px;
+   text-align: center;
+   justify-content: center;
+   color: aliceblue;
+   display: inline-block;
+   letter-spacing: 2px;
+   padding: 12px 20px;
+   background-color: #5d88d5;
+   border-radius: 5px;
+   color: aliceblue;
+}
+.btnLogin{
+    width: 120px;
+    background: transparent;
+    height: 50px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 40px;
+    transition: 0.1s;
+}
+
+.btnLogin:hover{
+    background-color: blue;
+    color:gold ;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        padding: 0 10px;
+      }
+
+      nav .logo p {
+        font-size: 20px;
+      }
+
+      nav li a {
+        font-size: 16px;
+        padding: 0 10px;
+      }
+
+      .content {
+        padding: 30px;
+      }
+
+      .content h1 {
+        font-size: 28px;
+      }
+
+      .content p {
+        font-size: 16px;
+      }
+    }
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
